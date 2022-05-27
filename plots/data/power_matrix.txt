@@ -1,0 +1,7 @@
+import _pickle as cPickle
+cPickle.load( open( "power_matrix.pkl", "rb" ) )
+
+or
+
+import numpy as np
+np.load('power_matrix.npy')

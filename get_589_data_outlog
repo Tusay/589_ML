@@ -1,0 +1,24 @@
+Starting job get_589_data
+Fri Apr 15 13:02:01 EDT 2022
+Job id: 35588960.torque01.util.production.int.aci.ics.psu.edu
+ 
+Changing into /storage/work/n/nxt5197/589_Machine_Learning
+ 
+Executing script...
+ 
+Fri Apr 15 13:02:03 EDT 2022
+ 
+Traceback (most recent call last):
+  File "/storage/home/nxt5197/work/589_Machine_Learning/get_data.py", line 88, in <module>
+    pd.DataFrame(power_matrix).to_csv("power_matrix.csv")
+  File "/storage/home/nxt5197/work/environments/tSETI/lib/python3.9/site-packages/pandas/core/frame.py", line 711, in __init__
+    mgr = ndarray_to_mgr(
+  File "/storage/home/nxt5197/work/environments/tSETI/lib/python3.9/site-packages/pandas/core/internals/construction.py", line 304, in ndarray_to_mgr
+    values = _prep_ndarray(values, copy=copy)
+  File "/storage/home/nxt5197/work/environments/tSETI/lib/python3.9/site-packages/pandas/core/internals/construction.py", line 555, in _prep_ndarray
+    raise ValueError(f"Must pass 2-d input. shape={values.shape}")
+ValueError: Must pass 2-d input. shape=(853, 120, 250)
+ 
+Fri Apr 15 16:36:35 EDT 2022
+ 
+Game over. Thanks for playing.

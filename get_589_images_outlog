@@ -1,0 +1,16 @@
+Starting job get_589_imgs
+Mon May  2 18:25:27 EDT 2022
+Job id: 36014700.torque01.util.production.int.aci.ics.psu.edu
+ 
+Changing into /storage/work/n/nxt5197/589_Machine_Learning
+ 
+Executing script...
+ 
+Mon May  2 18:25:30 EDT 2022
+ 
+/storage/home/nxt5197/work/589_Machine_Learning/get_images.py:50: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig,ax = plt.subplots(n_plots, sharex=True, sharey=True,figsize=(10, 2*n_plots))
+ 
+Tue May  3 06:20:39 EDT 2022
+ 
+Game over. Thanks for playing.
